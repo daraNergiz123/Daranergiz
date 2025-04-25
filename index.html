@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dev-daranergiz</title>
+    <style>
+        header{
+            background-color:#008080;
+            padding: 20px;
+            
+        }
+        body{
+            background-color: #F4F3F0;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .foto{
+            border-radius: 50px;
+        }
+        nav a {
+            margin: 0 15px;
+            color: black;
+            text-decoration: none;
+        }
+        .about {
+            background-color: white;
+            padding: 20px;
+           margin: auto;
+            width: 50%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            border-radius: 8px;
+            
+            font-size: large;
+            margin-top: 50px;
+
+        }
+   
+        
+        
+        footer{background-color:#008080;
+            text-align: left;
+            margin-bottom: 0px;
+            width: auto;
+
+            
+        }
+        .services {
+             display: flex;
+             justify-content: center; 
+             gap: 20px; 
+             flex-wrap: wrap; 
+             margin-top: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+            
+        }
+
+  
+        @media (max-width: 720px) {
+        .services {
+            flex-direction: column;
+            align-items: center;
+            text-align: center; 
+            /* telefon için*/
+        }
+
+        .services  div {
+        width: 90%;
+        margin-bottom: 20px;
+        }
+    }
+ 
+
+        
+       
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="foto" src="daranergizprofili.png" alt="daranergizprofili">
+        <h1>DARA NERGİZ</h1>
+        <p>frontend & developer</p>
+        </div>
+        <nav>
+            <a href="#about">Hakımda</a>
+            <a href="#services">Hizmetler</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </header>
+    <section>
+        <article id="about">
+           <div class="about">
+            <h2>Hakkımda👋</h2>
+           <p>Genç ve dinamik bir öğrenci olarak, yazılım geliştirme alanında kendimi sürekli geliştirmekteyim.
+                HTML, CSS ve diğer yazılım dillerinde temel tecrübeye sahibim. Öğrenmeye açık, çözüm odaklı ve yenilikçi bir
+                yaklaşımla, gelecekte profesyonel bir web geliştirici olarak sektöre katkıda bulunmayı amaçlıyorum.</p>
+            </div> 
+        </article>
+        <article id="services">
+            <h2> Hizmetler</h2>
+            <div class="services">
+                <div class="card">
+                    <h3>💻 Web Tasarımı</h3>
+                    <p>Modern, mobil uyumlu ve kullanıcı dostu web siteleri tasarlıyorum. İhtiyaçlarınıza uygun, sade ama etkileyici tasarımlar sunuyorum.</p>
+                </div>
+                <div class="card">
+                    <h3>🎨 Arayüz Geliştirme</h3>
+                    <p>HTML ve CSS kullanarak arayüzler oluşturuyorum. Ziyaretçilerinizin rahatça gezinebileceği, estetik ve işlevsel sayfalar hazırlıyorum.</p>
+                </div>
+                <div class="card">
+                    <h3>🔧 Web Sitesi Güncelleme ve Bakım
+                    </h3>
+                    <p>Var olan sitenizin içeriğini güncelliyorum, tasarım veya teknik hataları düzeltiyorum. Web sitenizi her zaman güncel ve çalışır halde tutuyorum.
+
+                    </p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer id="contact">
+        <div><h3>
+            İletişim📞</h3>
+        <a style="color: black; text-decoration: none;" href="mailto:1daranergiz1@gmail.com">📧 1daranergiz1@gmail.com</a> <br>
+        <a style="color: black; text-decoration: none;" href="https://github.com/daraNergiz123"> 👾Github</a>
+        
+            
+        
+            <p>© 2025 Dara Nergiz | Tüm hakları saklıdır.</p></div>
+        
+            
+    
+       </footer>
+
+
+    
+</body>
+</html>
