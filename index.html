@@ -26,9 +26,10 @@
             border-radius: 50px;
         }
         nav a {
-            margin: 0 15px;
+            margin: 0px 15px;
             color: black;
             text-decoration: none;
+            padding: 2px;
         }
         .about {
             background-color: white;
@@ -82,6 +83,11 @@
         width: 90%;
         margin-bottom: 20px;
         }
+        .nav {flex-direction: column;
+            align-items: center;
+            text-align: center; 
+
+        }
     }
  
 
@@ -103,14 +109,14 @@
         <p>frontend & developer</p>
         </div>
         <nav>
-            <a class="btn btn-outline-light" href="#about">Hakımda</a>
-            <a class="btn btn-outline-light" href="#services">Hizmetler</a>
-            <a class="btn btn-outline-light" href="#contact">İletişim</a>
+            <a class="btn btn-outline-light m-0 " href="#about">Hakımda</a>
+            <a class="btn btn-outline-light m-0" href="#services">Hizmetler</a>
+            <a class="btn btn-outline-light m-0" href="#contact">İletişim</a>
         </nav>
     </header>
     <section>
         <article id="about">
-           <div class="about">
+           <div class="about col-12">
             <h2>Hakkımda👋</h2>
            <p>Genç ve dinamik bir öğrenci olarak, yazılım geliştirme alanında kendimi sürekli geliştirmekteyim.
                 HTML, CSS ve diğer yazılım dillerinde temel tecrübeye sahibim. Öğrenmeye açık, çözüm odaklı ve yenilikçi bir
